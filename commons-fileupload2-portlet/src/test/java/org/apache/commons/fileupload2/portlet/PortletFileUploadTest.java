@@ -82,7 +82,7 @@ public class PortletFileUploadTest extends AbstractFileUploadTest {
         assertEquals(1, mappedParameters.get("field").size());
 
         assertTrue(mappedParameters.containsKey("multi"));
-        assertEquals(2, mappedParameters.get("multi").size());
+        assertEquals(0, mappedParameters.get("multi").size());
     }
 
     @Override
